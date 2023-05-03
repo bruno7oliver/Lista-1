@@ -1,0 +1,62 @@
+1-a)A formula é verdadeira, pois A é sastisfatível, e existe uma interpretação verdade. ¬A falso também é possível, o ¬A se torna sastifatível.
+
+b) A formula A é uma tautologia se somente ¬A é contraditoria, pois uma tautologia é uma formula que sempre é verdadeira.
+
+C) A formula A é uma tautologia se somente se toda interpretação torna verdadeira, pois A é sastifatível não significa que toda interpretação torna A verdadeira pode ser sastifatível sem ser tautologia.
+
+d) A formula é true se A é contradição, então não tem interpretação que torna A verdadeiro. Portanto toda interpretação torna ¬A falso, o que ¬A é sastifatível.
+
+e) A formula é true, se AI=B, A é tautoligia, então toda interpretação A é verdadeira é a B também fica verdadeira.
+
+f) A formula é false, se AI=B A implica em B, é B vira se torna uma tautologia, então toda interpretação B verdade, deixa o A verdade também.
+
+2-a)A------------
+
+3) Toda folha da árvore é avaliada como T, isso significa que H é uma tautologia. Em outras palavras, H é verdadeiro sob todas as atribuições de verdade possíveis para P, Q, R e S. É uma interpretação I tal que I[H] = F, precisamos encontrar uma atribuição de verdade para P, Q, R e S que torne a fórmula H falsa.E lado esquerdo da implicação em H é verdadeiro, então a implicação como um todo é falsa. Portanto, I[H] = F para esta interpretação.
+
+4-a) Para a fórmula (P ∧ Q) → G, sua negação é (P ∧ Q) ∧ ¬G. Podemos verificar que esta fórmula não é uma contradição quando consideramos I(P) = T, I(Q) = T e I(G) = F, pois neste caso a fórmula é verdadeira. Portanto, a fórmula original não é uma tautologia em todos os casos.
+
+b) Para a fórmula (P → Q) → G, sua negação é P ∧ ¬Q ∧ ¬G. Podemos verificar que esta fórmula é uma contradição, pois não há nenhuma interpretação que torne a fórmula verdadeira. Portanto, a fórmula original é uma tautologia em todos os casos.
+
+c) Para a fórmula (P v Q) |= G, sua negação é P ∧ Q ∧ ¬G. Podemos verificar que esta fórmula não é uma contradição quando consideramos I(P) = T, I(Q) = T e I(G) = F, pois neste caso a fórmula é falsa. Portanto, a fórmula original não é sempre verdadeira.
+
+d) Para a fórmula (P ↔ Q) |= G, sua negação é (P ∧ ¬Q ∧ ¬G) v (¬P ∧ Q ∧ ¬G). Podemos verificar que esta fórmula não é uma contradição quando consideramos I(P) = T, I(Q) = T e I(G) = F, pois neste caso a fórmula é falsa. Portanto, a fórmula original não é uma tautologia em todos os casos.
+
+5-a) Se a comida não é boa então serviço não é exelente.
+
+b) Ou a comida não é boa, então o serviço não é excelente.
+
+c) Ou comida não é boa, então o serviço não é excelente, ou então não está sendo caro.
+
+d)A comida é boa ou serviço é excelente.
+
+e) Se não é caro, então a comida não é boa e o serviço não é excelente.
+
+6) O Q é true, se P é a interpretação verdade, na formula tem uma negação, que pode transforme como falso, para ter equivalência de todos os lados, tem que ser verdade ou todos os lados falsos.
+
+b) Ambos Q e R, pertencem interpretações true.
+
+7-a) (p^(¬(¬pVq))V(p^q)   
+((p^¬(¬pVq))Vp)^((p^¬(¬pVq)  destreturação
+((p^(p^¬q)Vp)^((p^(¬p^¬q))Vq) MORGAN
+((p^p^¬q)Vp)^((p^¬p^¬q)Vq)  
+(p^¬q)Vq
+¬qVpVq
+(P^Q)v¬Q
+
+b) Lei de morgan para tirar as conjunções ¬(p^¬q) ≡ ¬p V q , ¬(q^¬p) ≡ ¬q Vp para (¬p V q) ∧ (¬q V p) ≡ (p ∧ ¬q) V (q ∧ ¬p), que resulta em (p ∧ ¬q) V (q ∧ ¬p)
+
+8-a) (R->P) ^(R->Q) e (¬Pv¬Q) -> ¬ R
+     (R->P)^(R->Q)
+D.CONDICIONAL:
+(¬RvP) ^ (¬RvQ)
+DISTRIBUTIVA:
+  ¬R v (P^Q)
+CONTRAPOSIÇÃO:
+(¬PV¬Q)->¬R
+FORMULAS EQUIVALENTES
+
+b) (¬(¬P->Q) v S)^¬P
+   MORGAN
+   ((P^¬Q) v S)¬P
+   EQUIVALENCIA ENTRE CONJUNÇÃO/DISJUNÇÃO
